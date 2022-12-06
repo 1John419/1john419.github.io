@@ -72,6 +72,12 @@ ul {
   width: 100%;
 }
 
+.citation {
+  border-bottom: 1px solid var(--fg);
+  padding: 1.0rem;
+  width: 100%;
+}
+
 .dedication {
   border-bottom: 1px solid var(--fg);
   padding: 1.0rem 1.0rem 0 1.0rem;
