@@ -64,7 +64,9 @@ ul {
   border: 1px solid var(--fg);
   border-left: 0;
   border-right: 0;
+  height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
 .content {
@@ -81,6 +83,17 @@ ul {
 .dedication {
   border-bottom: 1px solid var(--fg);
   padding: 1.0rem 1.0rem 0 1.0rem;
+  width: 100%;
+}
+
+.king {
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.praise {
+  border-bottom: 1px solid var(--fg);
+  padding: 1.0rem;
   width: 100%;
 }
 
