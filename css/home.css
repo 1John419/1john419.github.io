@@ -55,6 +55,10 @@ li {
   margin-bottom: 0.5rem;
 }
 
+li ul {
+  margin-top: 0.5rem;
+}
+
 p {
   margin: 0 0 1.0rem 0;
   padding: 0;
