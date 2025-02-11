@@ -34,12 +34,6 @@ h2 {
   margin: 1.0rem 0 0.5rem 0;
 }
 
-h3 {
-  font-size: 1.0rem;
-  font-weight: 700;
-  margin: 1.0rem 0 0.25rem 0;
-}
-
 hr {
   border: none;
   border-bottom: solid 1px;
@@ -57,11 +51,6 @@ li {
 
 li ul {
   margin-top: 0.5rem;
-}
-
-p {
-  margin: 0 0 1.0rem 0;
-  padding: 0;
 }
 
 ul {
@@ -83,6 +72,21 @@ ul {
   font-weight: bold;
 }
 
+.btn {
+  background-color: var(--bg-btn);
+  border: 1px solid;
+  border-radius: 0.5rem;
+  color: var(--fg-btn);
+  margin: 0 1.0rem 0 0;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-box {
+  margin: 1.0rem;
+  padding: 0.5rem;
+}
+
 .center {
   text-align: center;
 }
@@ -95,5 +99,7 @@ ul {
 :root {
   box-sizing: border-box;
   --bg: hsl(0, 0%, 15%);
+  --bg-btn: hsl(0, 0%, 30%);
   --fg: hsl(0, 0%, 70%);
+  --fg-btn: hsl(0, 0%, 80%);
 }
