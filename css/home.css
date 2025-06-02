@@ -107,6 +107,12 @@ ul {
   font-weight: 500;
 }
 
+.highlight-red {
+  color: var(--fg-red);
+  font-family: serif;
+  font-weight: 500;
+}
+
 .ml-zero {
   margin-left: 0;
 }
@@ -117,6 +123,7 @@ ul {
   --border: hsl(120, 50%, 28%);
   --fg: hsl(270, 5%, 62%);
   --fg-green: hsl(60, 50%, 46%);
+  --fg-red: hsl(00, 50%, 46%);
 }
 
 .svg {
